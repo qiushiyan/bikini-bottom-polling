@@ -1,0 +1,1 @@
+{"buildTargets":["db-create","db-create-table","db-gen-migration","db-migrate","iex"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

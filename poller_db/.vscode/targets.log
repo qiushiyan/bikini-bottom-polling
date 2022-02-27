@@ -1,0 +1,321 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Sat Feb 26 18:39:17 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/qiushi/workspace/learn-elixir/bikini-bottom-polling/poller_db
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# environment
+STARSHIP_SESSION_KEY = 9988312062322056
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/r2/ycy8hp_54yd7bxc_0kyb5trm0000gn/T/vscode-ipc-871d1a5f-10ca-4eae-8573-d4ed24374c4e.sock
+# environment
+VSCODE_CWD = /Users/qiushi/workspace/learn-elixir/bikini-bottom-polling
+# environment
+ANDROID_SDK = /Users/qiushi/Library/Android/sdk
+# environment
+PATH = /opt/homebrew/Caskroom/miniconda/base/condabin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/qiushi/.cargo/bin:/Users/qiushi/.fig/bin:/Contents/Resources/app/bin:/Users/qiushi/bin:/usr/local/bin:/Users/qiushi/Library/Python/3.9/bin:/opt/homebrew/opt/openjdk@11/bin:/Users/qiushi/Library/Android/sdk/platform-tools:/Users/qiushi/.mix/escripts:/opt/homebrew/opt/node@16/bin:/Users/qiushi/.local/bin
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+FIG_CHECKED_PROMPTS = 1
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+GOPATH = /Users/qiushi/workspace/learn-go
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.4fm340vlkp/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_EXE = /opt/homebrew/Caskroom/miniconda/base/bin/conda
+# environment
+TTY = /dev/ttys001
+# environment
+FIG_ENV_VAR = 1
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+ 
+make: *** No rule to make target `all'.  Stop.
+ 
+PWD = /Users/qiushi/workspace/learn-elixir/bikini-bottom-polling/poller_db
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /Users/qiushi
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/qiushi/Library/Application Support/Code/CachedData/f80445acd5a3dadef24aa209168452a3d97cc326
+# environment
+LOGNAME = qiushi
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+ZSH = /Users/qiushi/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+LC_TERMINAL = iTerm2
+# environment
+SHLVL = 3
+# environment
+FIG_TERM = 1
+# environment
+JAVA_HOME = /Library/java/JavaVirtualMachines/openjdk-11.jdk/contents/home/
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = qiushi
+# environment
+FIG_TERM_VERSION = 4.0.10
+# default
+MAKECMDGOALS := all
+# environment
+TERM_SESSION_ID = w0t1p0:A807B3D3-E55F-4F92-B879-9C8194504C66
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+FIG_INTEGRATION_VERSION = 6
+# environment
+CONDA_SHLVL = 0
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# environment
+TERM_PROGRAM = iTerm.app
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/r2/ycy8hp_54yd7bxc_0kyb5trm0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/qiushi/Library/Application Support/Code/1.64.2-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 3.4.15
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.29020526.29020532.E4285720-7FCF-4DB6-8380-756289C5A431
+# environment
+LC_TERMINAL_VERSION = 3.4.15
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+ITERM_SESSION_ID = w0t1p0:A807B3D3-E55F-4F92-B879-9C8194504C66
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+COLORFGBG = 15;0
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+ITERM_PROFILE = Default
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /opt/homebrew/Caskroom/miniconda/base/bin/python
+# automatic
+^F = $(notdir $^)
+# environment
+OBJC_DISABLE_INITIALIZE_FORK_SAFETY = YES
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# environment
+_CE_CONDA = 
+# environment
+MAKELEVEL := 0
+# makefile
+.DEFAULT_GOAL := iex
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 30208
+# environment
+STARSHIP_SHELL = zsh
+# variable set hash-table stats:
+# Load=99/1024=10%, Rehash=0, Collisions=10/122=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777232, inode 30592111): 16 files, no impossibilities.
+
+# 16 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+db-gen-migration:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 8):
+	mix ecto.gen.migration
+	
+
+db-create:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 13):
+	mix ecto.create
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-26 15:31:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+iex:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 2):
+	iex -S mix
+	
+
+db-create-table:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 11):
+	mix ecto.gen.schema
+	
+
+db-migrate:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 5):
+	mix ecto.migrate
+	
+ 
+
+# files hash-table stats:
+# Load=9/1024=1%, Rehash=0, Collisions=0/21=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sat Feb 26 18:39:17 2022
+
+ 

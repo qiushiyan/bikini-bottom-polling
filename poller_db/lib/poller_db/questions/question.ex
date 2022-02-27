@@ -8,9 +8,9 @@ defmodule PollerDb.Questions.Question do
     timestamps()
   end
 
-  def changeset(district, attrs \\ %{}) do
-    district
-    |> cast(attrs, [:title])
+  def changeset(question, attrs \\ %{}) do
+    question
+    |> cast(attrs, [:title, :district_id])
     |> validate_required([:title, :district_id])
     |> validate_length(:title, min: 2, max: 50)
     |> assoc_constraint(:district)

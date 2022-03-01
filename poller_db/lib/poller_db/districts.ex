@@ -25,4 +25,8 @@ defmodule PollerDb.Districts do
   def get_district!(id) do
     Repo.get!(District, id)
   end
+
+  def change_district(district \\ %District{}) do
+    District.changeset(district, %{})
+  end
 end

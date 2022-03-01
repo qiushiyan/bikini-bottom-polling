@@ -1,0 +1,6 @@
+<h1 class = "text-5xl">
+    New District
+</h1>
+
+<%= render "form.html", Map.put(assigns, :action, Routes.district_path(@conn, :create)) %>
+

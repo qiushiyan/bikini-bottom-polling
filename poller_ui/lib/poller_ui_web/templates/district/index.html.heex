@@ -1,0 +1,19 @@
+<h1>Districts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <%= for district <- @districts do %>
+      <tr>
+        <td><%= district.name %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<div>
+  <%= link "New District", to: Routes.district_path(@conn, :new), class: "btn" %>
+</div>

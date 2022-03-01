@@ -6,9 +6,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
- 
 
-# Make data base, printed on Mon Feb 28 19:07:46 2022
+# Make data base, printed on Mon Feb 28 18:01:01 2022
 
 # Variables
 
@@ -27,7 +26,7 @@ VSCODE_LOG_NATIVE = false
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /Users/qiushi/workspace/learn-elixir/bikini-bottom-polling/poller_db
+CURDIR := /Users/qiushi/workspace/learn-elixir/bikini-bottom-polling/poller_ui
 # makefile
 SHELL = /bin/sh
 # environment
@@ -43,7 +42,7 @@ __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 INFOPATH = /opt/homebrew/share/info:
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/r2/ycy8hp_54yd7bxc_0kyb5trm0000gn/T/vscode-ipc-94a358a3-cca1-47e5-b968-5c300c2e6fd9.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/r2/ycy8hp_54yd7bxc_0kyb5trm0000gn/T/vscode-ipc-c152c56b-c14e-44b6-8eef-1d7704990a08.sock
 # environment
 VSCODE_CWD = /Users/qiushi/workspace/learn-elixir/bikini-bottom-polling
 # environment
@@ -77,7 +76,7 @@ FIG_ENV_VAR = 1
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-PWD = /Users/qiushi/workspace/learn-elixir/bikini-bottom-polling/poller_db
+PWD = /Users/qiushi/workspace/learn-elixir/bikini-bottom-polling/poller_ui
 # environment
 HOMEBREW_CELLAR = /opt/homebrew/Cellar
 # environment
@@ -104,9 +103,6 @@ ZSH = /Users/qiushi/.oh-my-zsh
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
- 
-make: *** No rule to make target `all'.  Stop.
- 
 # environment
 XPC_FLAGS = 0x0
 # environment
@@ -160,7 +156,7 @@ MFLAGS = -Rrqp
 # environment
 TERM_PROGRAM_VERSION = 3.4.15
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.29020526.29020532.13A3D65B-1B35-4502-A47F-FF1BF34A0950
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.29020526.29020532.C9B6E91D-0798-45BB-8C00-DBCE3617D170
 # environment
 LC_TERMINAL_VERSION = 3.4.15
 # environment
@@ -204,7 +200,7 @@ _CE_CONDA =
 # environment
 MAKELEVEL := 0
 # makefile
-.DEFAULT_GOAL := iex
+.DEFAULT_GOAL := dev
 # environment
 LANG = C
 # environment
@@ -222,9 +218,9 @@ STARSHIP_SHELL = zsh
 
 # Directories
 
-# . (device 16777232, inode 30592111): 16 files, no impossibilities.
+# . (device 16777232, inode 30717054): 17 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -241,22 +237,6 @@ all:
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
-db-gen-migration:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 8):
-	mix ecto.gen.migration
-	
-
-db-create:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 13):
-	mix ecto.create
-	
-
 # Not a target:
 .SUFFIXES:
 #  Implicit rule search has not been done.
@@ -266,11 +246,19 @@ db-create:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-02-26 15:31:51
+#  Last modified 2022-02-26 18:36:25
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+dev:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 2):
+	mix phx.server
+	
 
 # Not a target:
 .DEFAULT:
@@ -278,32 +266,8 @@ Makefile:
 #  Modification time never checked.
 #  File has not been updated.
 
-iex:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 2):
-	iex -S mix
-	
-
-db-create-table:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 11):
-	mix ecto.gen.schema
-	
-
-db-migrate:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 5):
-	mix ecto.migrate
-	
-
 # files hash-table stats:
-# Load=9/1024=1%, Rehash=0, Collisions=0/21=0%
+# Load=5/1024=0%, Rehash=0, Collisions=0/17=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -315,6 +279,8 @@ db-migrate:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon Feb 28 19:07:46 2022
+# Finished Make data base on Mon Feb 28 18:01:01 2022
 
+ 
+make: *** No rule to make target `all'.  Stop.
  

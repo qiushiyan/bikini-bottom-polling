@@ -1,5 +1,6 @@
 import Config
 
+assets_dir = Path.expand("../assets", __DIR__)
 # For development, we disable any cache and enable
 # debugging and code reloading.
 #
@@ -16,7 +17,15 @@ config :poller_ui, PollerUiWeb.Endpoint,
   secret_key_base: "+vrZLDkI8NH628znwF+RQv6A3GPNS44roSRnduUfze93pSN7nvtSsEv7idF34dYB",
   watchers: [
     # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args)
-    esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]}
+    node: ["esbuild.js", "--watch", cd: assets_dir],
+    npx: [
+      "tailwindcss",
+      "--input=./src/styles/tailwind.css",
+      "--output=../priv/static/assets/tailwind.css",
+      "--postcss",
+      "--watch",
+      cd: assets_dir
+    ]
   ]
 
 # ## SSL Support

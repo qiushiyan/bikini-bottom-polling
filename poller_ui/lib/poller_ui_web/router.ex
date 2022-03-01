@@ -20,10 +20,22 @@ defmodule PollerUiWeb.Router do
     get "/", PageController, :index
   end
 
-  # Other scopes may use custom stacks.
-  # scope "/api", PollerUiWeb do
-  #   pipe_through :api
-  # end
+  scope "/districts", PollerUiWeb do
+    pipe_through :browser
+
+    get "/", DistrictController, :index
+    get "/new", DistrictController, :new
+    get "/:id/edit", DistrictController, :edit
+    put "/:id", DistrictController, :update
+    post "/", DistrictController, :create
+  end
+
+  scope "/api", PollerUiWeb.Api do
+    pipe_through :api
+
+    get "/districts", DistrictController, :index
+    get "/districts/:id", DistrictController, :show
+  end
 
   # Enables LiveDashboard only for development
   #
